@@ -1,0 +1,471 @@
+/***************************
+UACM | COLEGIO DE CIENCIA Y TECNOLOGÍA
+BLOQUE - QUIÉNES SOMOS
+***************************/
+
+
+/***************************
+DIRECTORIO CUERPOS COLEGIADOS
+***************************/
+.myButton {
+	-moz-box-shadow: -4px 5px 4px 2px #363636;
+	-webkit-box-shadow: -4px 5px 4px 2px #363636;
+	box-shadow: -4px 5px 4px 2px #363636;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #a35951), color-stop(1, #9c2426));
+	background:-moz-linear-gradient(top, #a35951 15%, #9c2426 100%);
+	background:-webkit-linear-gradient(top, #a35951 15%, #9c2426 100%);
+	background:-o-linear-gradient(top, #a35951 15%, #9c2426 100%);
+	background:-ms-linear-gradient(top, #a35951 15%, #9c2426 100%);
+	background:linear-gradient(to bottom, #a35951 15%, #9c2426 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a35951', endColorstr='#9c2426',GradientType=0);
+	background-color:#a35951;
+	-moz-border-radius:14px;
+	-webkit-border-radius:14px;
+	border-radius:14px;
+	border:2px solid #8b4b4b;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:25px;
+	font-weight:bold;
+	padding:25px 25px;
+	text-decoration:none;
+}
+.myButton2 {
+	-moz-box-shadow: -4px 5px 4px 2px #363636;
+	-webkit-box-shadow: -4px 5px 4px 2px #363636;
+	box-shadow: -4px 5px 4px 2px #363636;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #a35951), color-stop(1, #9c2426));
+	background:-moz-linear-gradient(top, #a35951 15%, #9c2426 100%);
+	background:-webkit-linear-gradient(top, #a35951 15%, #9c2426 100%);
+	background:-o-linear-gradient(top, #a35951 15%, #9c2426 100%);
+	background:-ms-linear-gradient(top, #a35951 15%, #9c2426 100%);
+	background:linear-gradient(to bottom, #a35951 15%, #9c2426 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a35951', endColorstr='#9c2426',GradientType=0);
+	background-color:#a35951;
+	-moz-border-radius:1px;
+	-webkit-border-radius:16px;
+	border-radius:16px;
+	border:2px solid #8b4b4b;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:25px;
+	font-weight:bold;
+	padding:25px 35px;
+	text-decoration:none;
+}
+
+.myButton2 {
+	-moz-box-shadow: -4px 5px 4px 2px #363636;
+	-webkit-box-shadow: -4px 5px 4px 2px #363636;
+	box-shadow: -4px 5px 4px 2px #363636;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #a35951), color-stop(1, #9c2426));
+	background:-moz-linear-gradient(top, #a35951 15%, #9c2426 100%);
+	background:-webkit-linear-gradient(top, #a35951 15%, #9c2426 100%);
+	background:-o-linear-gradient(top, #a35951 15%, #9c2426 100%);
+	background:-ms-linear-gradient(top, #a35951 15%, #9c2426 100%);
+	background:linear-gradient(to bottom, #a35951 15%, #9c2426 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a35951', endColorstr='#9c2426',GradientType=0);
+	background-color:#a35951;
+	-moz-border-radius:1px;
+	-webkit-border-radius:16px;
+	border-radius:16px;
+	border:2px solid #8b4b4b;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:25px;
+	font-weight:bold;
+	padding:25px 35px;
+	text-decoration:none;
+}
+.myButton3 {
+	-moz-box-shadow: -4px 5px 4px 2px #363636;
+	-webkit-box-shadow: -4px 5px 4px 2px #363636;
+	box-shadow: -4px 5px 4px 2px #363636;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #a35951), color-stop(1, #9c2426));
+	background:-moz-linear-gradient(top, #a35951 15%, #9c2426 100%);
+	background:-webkit-linear-gradient(top, #a35951 15%, #9c2426 100%);
+	background:-o-linear-gradient(top, #a35951 15%, #9c2426 100%);
+	background:-ms-linear-gradient(top, #a35951 15%, #9c2426 100%);
+	background:linear-gradient(to bottom, #a35951 15%, #9c2426 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a35951', endColorstr='#9c2426',GradientType=0);
+	background-color:#a35951;
+	-moz-border-radius:1px;
+	-webkit-border-radius:16px;
+	border-radius:16px;
+	border:2px solid #8b4b4b;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:25px;
+	font-weight:bold;
+	padding:25px 38px;
+	text-decoration:none;
+
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #9c2426), color-stop(1, #a35951));
+	background:-moz-linear-gradient(top, #9c2426 5%, #a35951 100%);
+	background:-webkit-linear-gradient(top, #9c2426 5%, #a35951 100%);
+	background:-o-linear-gradient(top, #9c2426 5%, #a35951 100%);
+	background:-ms-linear-gradient(top, #9c2426 5%, #a35951 100%);
+	background:linear-gradient(to bottom, #9c2426 5%, #a35951 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#9c2426', endColorstr='#a35951',GradientType=0);
+	background-color:#9c2426;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.contenedorletra {
+                background-color: lightgreen;
+		text-align: left;
+                width: 300px;
+                height: 150px;
+        }
+.letras {
+    background-color: lightgreen;
+	text-align: rigth;
+    width: 300px;
+    height: 150px;
+	padding:32px 19px;
+	font-family:Arial;
+        }
+#panel1, #panel2, #panel3, #panel4, #panel5,#panel6{
+	
+	
+	margin-left: 170px;
+
+	display: none;
+}
+/*************************
+CUERPOS COLEGIADOS
+*************************/
+
+ .link { color: #000000;
+
+		    font-weight:700;
+            
+            max-width: 800px;
+	        min-width: 300px;
+            margin-left: 60px;
+     
+           font-size: 20px;
+           letter-spacing: 4px;
+           text-transform: uppercase;
+           font-weight: bold;
+           margin-top: -190px;
+}
+
+/***************************
+PÁGINA: QUEJAS Y SUGERENCIAS 
+***************************/
+/* Entradas de estilo con tipo = "texto", seleccione elementos y áreas de texto */
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Ancho completo*/
+    padding: 12px;
+    /* Algo de relleno */
+    border: 1px solid #ccc;
+    /* Borde gris */
+    border-radius: 4px;
+    /* Bordes redondeados */
+    box-sizing: border-box;
+    /* Asegúrese de que el relleno y el ancho permanezcan en su lugar*/
+    margin-top: 6px;
+    /* Añadir un margen superior */
+    margin-bottom: 16px;
+    /*Margen inferior*/
+    resize: vertical
+        /* Permitir que el usuario redimensione verticalmente el área de texto (no horizontalmente) */
+}
+
+/* Diseñe el botón Enviar con un color de fondo específico, etc. */
+input[type=submit] {
+    background-color: #721825;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* 
+Cuando mueva el mouse sobre el botón Enviar, agregue un color verde más oscuro*/
+input[type=submit]:hover {
+    background-color: #721825;
+}
+
+/* Agrega un color de fondo y algunos rellenos alrededor del formulario.*/
+.containerform {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 30px 190px;
+    margin-top: -60px;
+}
+
+.nombre {
+    margin: 20px 30px 40px;
+
+}
+
+.asunto {
+    margin: 20px 34px 40px;
+}
+
+.mensaje {
+    margin: 20px 30px 40px;
+}
+
+.box1 {
+    width: 400px;
+
+}
+
+.box2 {
+    width: 400px;
+
+}
+
+.box3 {
+    width: 400px;
+    height: 150px;
+    margin-bottom: 60px;
+}
+
+/**********************************
+PÁGINA - MARCO NORMATIVO
+***********************************/
+/****************
+Marco Normativo
+****************/
+
+
+@media (max-width: 1900px){
+
+section li:before {
+	  content: counters(elemento, '.') "";
+}
+.listado li a{
+		text-decoration: none;
+		  color: #1a1a1a;
+		font-size: 34px;		
+}
+.listado {
+		 margin: 0px 5% 0px 2%;		 
+}
+.listado ol{
+		margin: 2% 0px 0px -1%; 		 
+}
+.listado li{
+		position: relative;
+		display: block;
+		padding: 3% 2% 12px 2%;
+		margin: 55px 0px 1px 40px;
+		text-decoration: none;	
+}
+.listado li:hover{		
+}   	
+.listado li:before{
+		position: absolute; 
+		left: -1.8em;
+		margin-top: 1.4em;    
+		background: #721825;
+		height: 1em;
+		width: 1em;
+		line-height: 1em;
+		text-align: center;
+		color:#721825;
+		border-radius: 50px 50px 50px 50px;
+}	
+li	a.encabezado1{
+		font-size: 45px;
+    line-height: 50px;
+}
+
+}
+@media (max-width: 960px){
+
+section li:before {
+	  content: counters(elemento, '.') "";
+}
+.listado li a{
+		text-decoration: none;
+		  color: #1a1a1a;
+		font-size: 34px;		
+}
+.listado {
+		 margin: 0px 5% 0px 2%;		 
+}
+.listado ol{
+		margin: 2% 0px 0px -1%; 		 
+}
+.listado li{
+		position: relative;
+		display: block;
+		padding: 3% 2% 12px 2%;
+		margin: 55px 0px 1px 40px;
+		text-decoration: none;	
+}
+.listado li:hover{		
+}   	
+.listado li:before{
+		position: absolute; 
+		left: -1.8em;
+		margin-top: 1.4em;    
+		background: #721825;
+		height: 1em;
+		width: 1em;
+		line-height: 1em;
+		text-align: center;
+		color:#721825;
+		border-radius: 50px 50px 50px 50px;
+}	
+li	a.encabezado1{
+		font-size: 45px;
+    line-height: 50px;
+}
+
+}
+@media (max-width: 800px){
+
+section li:before {
+	  content: counters(elemento, '.') "";
+}
+.listado li a{
+		text-decoration: none;
+		  color: #1a1a1a;
+		font-size: 24px;		
+}
+.listado {
+		 margin: 0px 5% 0px 15%;		 
+}
+.listado ol{
+		margin: 2% 0px 0px 5%; 		 
+}
+.listado li{
+		position: relative;
+		display: block;
+		padding: 3% 2% 12px 2%;
+		margin: 55px 0px 1px 40px;
+		text-decoration: none;	
+
+		
+}
+.listado li:hover{		
+}   	
+.listado li:before{
+		position: absolute; 
+		left: -1.5em;
+		margin-top: 0.4em;    
+		background: #721825;
+		height: 1em;
+		width: 1em;
+		line-height: 1em;
+		text-align: center;
+		color:#721825;
+		border-radius: 50px 50px 50px 50px;
+}	
+li	a.encabezado1{
+		font-size: 45px;
+    line-height: 23px;
+}
+
+}
+@media (max-width: 680px){
+
+section li:before {
+	  content: counters(elemento, '.') "";
+}	
+.listado li a{
+		text-decoration: none;
+		  color: #1a1a1a;
+		font-size: 20px;			
+}
+.listado {
+		 margin: 0px 5% 0px 15%;		 
+}
+.listado ol{
+		margin: 2% 0px 0px 5%; 	 
+}
+.listado li{
+		position: relative;
+		display: block;
+		padding: 3% 2% 12px 2%;
+		margin: 55px 0px 1px 40px;
+		text-decoration: none;
+		background-color: #FFFFFF;	
+}
+.listado li:hover{
+		
+	}   	
+.listado li:before{
+		position: absolute; 
+		left: -1.5em;
+		margin-top: 0.4em;    
+		background: #721825;
+		height: 1em;
+		width: 1em;
+		line-height: 1em;
+		text-align: center;
+		color:#721825;
+		border-radius: 50px 50px 50px 50px;
+}
+li	a.encabezado1{
+		font-size: 45px;
+    line-height: 23px;
+}
+}
+@media screen and (max-width: 420px) {
+
+section li:before {
+	  content: counters(elemento, '.') "";
+}	
+.listado li a{
+		text-decoration: none;
+		  color: #1a1a1a;
+		font-size: 20px;			
+}
+.listado {
+		 margin: 0px 5% 0px 0%;		 
+}
+.listado ol{
+		margin: 2% 0px 0px 5%; 	 
+}
+.listado li{
+		position: relative;
+		display: block;
+		padding: 3% 2% 12px 2%;
+		margin: 15px 0px 5px 40px;
+		text-decoration: none;	
+}
+.listado li:hover{
+		
+	}   	
+.listado li:before{
+		position: absolute; 
+		left: -1.5em;
+		margin-top: 0.4em;    
+		background: #721825;
+		height: 1em;
+		width: 1em;
+		line-height: 1em;
+		text-align: center;
+		color:#721825;
+		border-radius: 50px 50px 50px 50px;
+}
+li	a.encabezado1{
+		font-size: 45px;
+    line-height: 23px;
+}
+
+
+}

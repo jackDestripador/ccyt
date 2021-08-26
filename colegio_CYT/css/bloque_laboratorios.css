@@ -1,0 +1,849 @@
+/**************************
+UACM | COLEGIO DE CIENCIA Y TECNOLOGÍA
+BLOQUE - LABORATORIOS
+****************************/
+
+/**************
+ESTILOS CIRCULO
+****************/
+
+/**************Estilos Circulos [circulo fondo]****************/
+.ch-item {
+	width: 90%;
+	height: 90%;
+	border-radius: 50%;
+	position: relative;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+	cursor: default;
+    left: 50px;
+}
+
+/**************Estilos Circulos [circulo encima]****************/
+.ch-info-wrap, 
+.ch-info{
+	position: absolute;
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+}
+/**************Estilos Circulos [circulo fondo]****************/
+.ch-info-wrap {
+	top: 18px;
+	left: 18px;
+	box-shadow: 
+		0 0 0 20px rgba(255,255,255,0.2), 
+		inset 0 0 3px rgba(115,114, 23, 0.8);
+
+}
+/**************Estilo  Circulos ****************/
+.ch-info > div {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background-position: center center;
+	
+	-webkit-backface-visibility: hidden; 
+}
+/**************transición  primer Circulos ****************/
+.ch-info .ch-info-front {
+	-webkit-transition: all 0.6s ease-in-out;
+	-moz-transition: all 0.6s ease-in-out;
+	-o-transition: all 0.6s ease-in-out;
+	-ms-transition: all 0.6s ease-in-out;
+	transition: all 0.6s ease-in-out;
+}
+/**************transición y escala segundo Circulo ****************/
+.ch-info .ch-info-back {
+	opacity: 0;
+	background: #7a242f;
+	pointer-events: none;
+    
+	
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	transform: scale(1.5);
+	
+	-webkit-transition: all 0.4s ease-in-out 0.2s;
+	-moz-transition: all 0.4s ease-in-out 0.2s;
+	-o-transition: all 0.4s ease-in-out 0.2s;
+	-ms-transition: all 0.4s ease-in-out 0.2s;
+	transition: all 0.4s ease-in-out 0.2s;
+}
+/**************imagenes dentro del circulo ****************/
+.ch-img-1 { 
+	background-image: url(../imagenes/img_laboratorios/iconos/casa_li.jpg);
+    
+}
+.ch-img-2 { 
+	background-image: url(../imagenes/img_laboratorios/iconos/centro_hist.jpg);
+}
+
+.ch-img-3 { 
+	background-image: url(../imagenes/img_laboratorios/iconos/cuatepec.jpg);
+}
+
+.ch-img-4 { 
+	background-image: url(../imagenes/img_laboratorios/iconos/PValle.png);
+}
+.ch-img-5 { 
+	background-image: url(../imagenes/img_laboratorios/iconos/sanlorenzo.jpg);
+}
+/**************Letra dentro del circulo ****************/
+.ch-info h3 {
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 18px;
+	margin: 0 15px;
+	padding: 40px 0 0 0;
+	height: 80px;
+	font-family: 'Open Sans', Arial, sans-serif;
+	text-shadow: 
+		0 0 1px #fff, 
+		0 1px 2px rgba(0,0,0,0.3);
+}
+/**************Letra dentro del circulo ****************/
+.ch-info p a {
+	display: block;
+	color: #e7615e;
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 9px;
+	letter-spacing: 1px;
+	padding-top: 4px;
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.ch-info p a:hover {
+	color: #fff;
+}
+/**************transicion primer circulo ****************/
+.ch-item:hover .ch-info-front {
+	-webkit-transform: scale(0);
+	-moz-transform: scale(0);
+	-o-transform: scale(0);
+	-ms-transform: scale(0);
+	transform: scale(0);
+	opacity: 0;
+} 
+/**************transicion segundo circulo ****************/
+.ch-item:hover .ch-info-back {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+	pointer-events: auto;
+}
+
+/**************Estilos Circulos  Cuautepec y del valle****************/
+
+.ch-item4 {
+	width: 90%;
+	height: 90%;
+	border-radius: 50%;
+	position: relative;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+	cursor: default;
+    left: 50px;
+    
+}
+/**************Estilos Circulos [circulo encima] C y DV****************/
+.ch-info-wrap4, 
+.ch-info4{
+	position: absolute;
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+}
+/**************Estilos Circulos [circulo fondo]  C y DV****************/
+.ch-info-wrap4 {
+	top: 18px;
+	left: 18px;
+	background: #f9f9f9 url(../images/bg.jpg);
+	box-shadow: 
+		0 0 0 20px rgba(255,255,255,0.2), 
+		inset 0 0 3px rgba(115,114, 23, 0.8);
+
+}/**************Estilo  Circulos  C y DV****************/
+
+.ch-info4 > div {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background-position: center center;
+	
+	-webkit-backface-visibility: hidden; 
+}
+/**************transición y escala Circulos C y DV ****************/
+.ch-info4 .ch-info-front4 {
+	-webkit-transition: all 0.6s ease-in-out;
+	-moz-transition: all 0.6s ease-in-out;
+	-o-transition: all 0.6s ease-in-out;
+	-ms-transition: all 0.6s ease-in-out;
+	transition: all 0.6s ease-in-out;
+}
+/**************transición y escala segundo Circulo  C y DV****************/
+.ch-info4 .ch-info-back4 {
+	opacity: 0;
+	background: #7a242f;
+	pointer-events: none;
+    
+	
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	transform: scale(1.5);
+	
+	-webkit-transition: all 0.4s ease-in-out 0.2s;
+	-moz-transition: all 0.4s ease-in-out 0.2s;
+	-o-transition: all 0.4s ease-in-out 0.2s;
+	-ms-transition: all 0.4s ease-in-out 0.2s;
+	transition: all 0.4s ease-in-out 0.2s;
+}
+/**************Letra dentro del circulo  C y DV****************/
+.ch-info4 h3 {
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 18px;
+	margin: 0 15px;
+	padding: 70px 0 0 0;
+	height: 80px;
+	font-family: 'Open Sans', Arial, sans-serif;
+	text-shadow: 
+		0 0 1px #fff, 
+		0 1px 2px rgba(0,0,0,0.3);
+}
+/**************Letra dentro del circulo ****************/
+.ch-info4 p {
+	color: #fff;
+	padding: 10px 5px 0;
+	font-style: italic;
+	margin: 0 30px;
+	font-size: 12px;
+	border-top: 1px solid rgba(255,255,255,0.5);
+}
+/**************Letra dentro del circulo ****************/
+.ch-info4 p a {
+	display: block;
+	color: #e7615e;
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 9px;
+	letter-spacing: 1px;
+	padding-top: 4px;
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.ch-info4 p a:hover {
+	color: #fff;
+}
+
+.ch-item4:hover .ch-info-front4 {
+	-webkit-transform: scale(0);
+	-moz-transform: scale(0);
+	-o-transform: scale(0);
+	-ms-transform: scale(0);
+	transform: scale(0);
+	opacity: 0;
+} 
+
+.ch-item4:hover .ch-info-back4 {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.ch-grid {
+/************Circulos****************************/
+    /****Margenes: arriiba ->derecha,   abajo,     <-Izquierda    ****/
+     margin:  20px       0        0            0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+.ch-grid:after,
+.ch-item:before {
+	content: '';
+    display: table;
+}
+
+.ch-grid:after {
+	clear: both;
+}
+
+.ch-grid li {
+	width: 220px;
+	height: 220px;
+	display: inline-block;
+	margin: 4px;
+}
+/**************Letra debajo del circulo ****************/
+.ch-grid li> h3{
+	margin: 10px -80px 0 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+/*************************
+ENCABEZADO DE MODULO PLANTEL
+***************************/
+
+.section-header .section-title {
+  font-size: 30px;
+  color: #272727;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 20px;
+  margin: 0 0 20px;
+}/*****Encabezado de Modulo Plantel******/
+.section-header .section-title:before {
+  content: "";
+  position: absolute;
+  width: 140px;
+  bottom: 0;
+  left: 50%;
+  margin-left: -70px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.8);
+
+}/*****punto******/
+.section-header .section-title:after {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  bottom: -11px;
+  left: 50%;
+  margin-left: -12px;
+  border: 5px solid #fff;
+  border-radius: 20px;
+  background: #7a242f;
+
+} 
+/**************separacion entre caja informacion******************/
+.media.service-box {
+  margin: 25px 0;
+}
+.media.service-box .pull-left {
+  margin-right: 20px;
+}
+/**************iconos******************/
+.media.service-box .pull-left > i {
+ 
+  
+  height: 64px;
+  line-height: 64px;
+  text-align: center;
+  width: 64px;
+  border-radius: 100%;
+  box-shadow: inset 0 0 0 1px #d7d7d7;
+  -webkit-box-shadow: inset 0 0 0 1px #d7d7d7;
+  transition: background-color 400ms, background-color 400ms;
+  position: relative;
+}
+
+
+
+/*****************************
+COLOR DE CONTORNO ICONO CIRCULO 
+*******************************/
+.media.service-box:hover .globe> i {  
+  background-image: -moz-linear-gradient(90deg,#B86302 0%,#B86302 100%);
+  background-image: -webkit-linear-gradient(90deg,#B86302 0%,#B86302 100%);
+  background-image: -ms-linear-gradient(90deg,#B86302 0%,#B86302 100%);
+  color: #fff;
+  box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.8);
+  -webkit-box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.8);
+}
+
+
+/**************icono-globe******************/
+.media.service-box .globe > i {
+    color: #262323;
+    font-size: 65px;
+}
+/**************icono-user******************/
+.media.service-box .user > i {
+  color: #262323;
+  font-size: 56px;    
+}
+/**************icono-equipo******************/
+.media.service-box .cubes > i {
+  color: #262323;
+  font-size: 44px;    
+}
+
+/****tamaño del punto y lugar****/
+.media.service-box .pull-left > i:after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  margin-top: -10px;
+  right: -10px;
+  border: 4px solid #fff;
+  border-radius: 20px;
+  background: #7a242f;
+}
+
+
+#features .media.service-box:first-child {
+  margin-top: 80px;
+}
+
+/*************************
+    ID_por_segmentos
+*************************/
+
+#casa_libertad {
+  padding: 100px 0;
+}
+#centro_historico {
+  padding: 100px 0;
+}
+#cuautepec {
+  padding: 100px 0;
+}
+#del_valle{
+  padding: 100px 0;
+}
+#san_lorenzo {
+  padding: 100px 0;
+}
+/*******contenedor  media-body*****/
+.media,.media-body{
+    overflow:hidden;
+    zoom:1
+}
+.media-body{width:10000px}
+.media-object{
+    display:block;
+}
+.media-body,.media-left,.media-right{
+    display:table-cell;vertical-align:top;
+}
+
+.media-object.img-thumbnail{
+    max-width:none;
+}
+.media-right,.media>.pull-right{
+    padding-left:10px;
+}
+.media-left,.media>.pull-left{
+    padding-right:10px;
+    
+}
+.pull-left{
+    float:left!important;
+}
+
+
+/**********************
+Ventanas Emergentes 
+**************************/
+
+/**********************
+  Ventana  Emergente Mapa
+**********************/
+
+#image-popups a{
+padding:20px;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 18px;
+color: #721825;
+line-height: 3em;
+
+}
+
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 40px;
+  width: auto;
+  max-width: 200px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/**********
+Ventana Emergente Imagenes
+**********/
+
+* {
+  box-sizing: border-box;
+}
+ 
+html, body {
+ 
+  font-size: 16px;
+}
+ 
+@media screen and (max-width: 768px) {
+  html, body {
+    font-size: 12px;
+   }
+}
+/**********
+Ventana Emergente Imagenes
+**********/
+
+* {
+  box-sizing: border-box;
+}
+ 
+html, body {
+ 
+  font-size: 16px;
+}
+ 
+@media screen and (max-width: 768px) {
+  html, body {
+    font-size: 12px;
+   }
+}
+.VentanaEmergente{
+    
+}
+/*Ventana emergente fondo*/
+.abrir_emergente {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+/*psocion del fondo de la ventana emergente*/
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  bottom: 0px;
+  right: 0%;
+  left: 0px;
+/*Color del fondo de la ventana emergente*/
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 1111;
+  visibility: hidden;
+/*opacidad*/
+  opacity: 0;
+  overflow: hiden;
+  transition: .64s ease-in-out;
+}
+/*cuadro texto e imagen ventana emergente*/
+.cuadro_emergente {
+  position: relative;
+/*cuandro tamaño  de texto e imagen*/
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  max-height: 900px;
+  /*tamaño del cuadro de la ventana emergente*/
+  width: 100%;
+  height: 100%;
+  /*margin-top: 10%;*/
+  background-color: #fff;
+  transform: rotate(270deg);
+  transition: .64s ease-in-out;
+}
+/*Foto_emergente*/
+.foto_emergente {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}/**/
+.foto_emergente img {
+  width: 100%;
+  height: 100%;
+}
+/*Cuadro de texto*/
+.texto_emergente{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ /*tamaño del cuadro de texto*/    
+  width: 60%;
+  height: 100%;
+  padding: 2rem;
+    
+}
+/*Ventana emergente texto encabezado*/
+.texto_emergente h1 {
+  font-size: 1rem;
+  font-weight: 100%;
+  margin-bottom: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+/*texto de la descripción*/
+.texto_emergente p {
+  font-size: .875rem;
+    line-height: 1.5;
+}
+ 
+/*punto inicial y que aparezca*/
+.abrir_emergente:target {
+  visibility: visible;
+  opacity: 1;
+}
+/*punto inicial y que aparezca*/
+.abrir_emergente:target .cuadro_emergente {
+  bottom: 0;
+  right: 0;
+  transform: rotate(0);
+}
+/*****Cerrar (X) **********/
+.cerrar {
+  /*posicion absoluta*/
+  position: absolute;
+  /*hacia la derecha desde el cuadro*/    
+  right: -1rem;
+  /*hacia arriba desde el cuadro*/    
+  top: 5rem;
+ /*Radio del circulo*/    
+  border-radius: 100%;
+  width: 3rem;
+  height: 3rem;
+  /*Tamaño de la X*/
+  font-size: .975rem;
+  /*Color de circulo*/  
+  background-color: #721825;
+  /*orden del elemento*/
+  z-index: 4;
+ /*Color de X*/
+  color: #fff;
+ /*Posicion de X*/   
+  line-height: 3rem;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+@media screen and (max-width: 1900px) {
+.cerrar {
+  /*posicion absoluta*/
+  position: absolute;
+  /*hacia la derecha desde el cuadro*/    
+  right: 8rem;
+  /*hacia arriba desde el cuadro*/    
+  top: -1.8rem;
+ /*Radio del circulo*/    
+  border-radius: 100%;
+  width: 4rem;
+  height: 4rem;
+  /*Tamaño de la X*/
+  font-size: .975rem;
+  /*Color de circulo*/  
+  background-color:#721825;
+  /*orden del elemento*/
+  z-index: 4;
+ /*Color de X*/
+  color: #fff;
+ /*Posicion de X*/   
+  line-height: 4rem;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+
+.cuadro_emergente {
+  position: relative;/*cuandro tamaño  de texto e imagen*/
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  max-height: 900px;
+  /*tamaño del cuadro de la ventana emergente*/
+  width: 100%;
+  height: 90%;
+  margin-top: 0;
+  background-color: #fff;
+  transform: rotate(270deg);
+  transition: .64s ease-in-out;
+
+}
+
+
+}
+
+
+
+@media screen and (max-width: 990px) {
+.cerrar {
+  /*posicion absoluta*/
+  position: absolute;
+  /*hacia la derecha desde el cuadro*/    
+  right: 8rem;
+  /*hacia arriba desde el cuadro*/    
+  top: -1.8rem;
+ /*Radio del circulo*/    
+  border-radius: 100%;
+  width: 4rem;
+  height: 4rem;
+  /*Tamaño de la X*/
+  font-size: .975rem;
+  /*Color de circulo*/  
+  background-color:#721825;
+  /*orden del elemento*/
+  z-index: 4;
+ /*Color de X*/
+  color: #fff;
+ /*Posicion de X*/   
+  line-height: 4rem;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+
+.cuadro_emergente {
+  position: relative;/*cuandro tamaño  de texto e imagen*/
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  max-height: 900px;
+  /*tamaño del cuadro de la ventana emergente*/
+  width: 100%;
+  height: 90%;
+  margin-top: 0;
+  background-color: #fff;
+  transform: rotate(270deg);
+  transition: .64s ease-in-out;
+
+}
+
+
+}
+
+
+@media screen and (max-width: 767px) {
+.cerrar {
+  /*posicion absoluta*/
+  position: absolute;
+  /*hacia la derecha desde el cuadro*/    
+  right: 8rem;
+  /*hacia arriba desde el cuadro*/    
+  top: -1.5rem;
+ /*Radio del circulo*/    
+  border-radius: 100%;
+  width: 4rem;
+  height: 4rem;
+  /*Tamaño de la X*/
+  font-size: .975rem;
+  /*Color de circulo*/  
+  background-color:#721825;
+  /*orden del elemento*/
+  z-index: 4;
+ /*Color de X*/
+  color: #fff;
+ /*Posicion de X*/   
+  line-height: 4rem;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.cuadro_emergente {
+  position: relative;
+/*cuandro tamaño  de texto e imagen*/
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  max-height: 900px;
+  /*tamaño del cuadro de la ventana emergente*/
+  width: 100%;
+  height: 50%;
+  margin-top: 0%;
+
+  background-color: #fff;
+  transform: rotate(270deg);
+  transition: .64s ease-in-out;
+}
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 568px) {
+	.cerrar {
+  /*posicion absoluta*/
+  position: absolute;
+  /*hacia la derecha desde el cuadro*/    
+  right: 5rem;
+  /*hacia arriba desde el cuadro*/    
+  top: -2rem;
+ /*Radio del circulo*/    
+  border-radius: 100%;
+  width: 5rem;
+  height: 5rem;
+  /*Tamaño de la X*/
+  font-size: 1.9rem;
+  /*Color de circulo*/  
+  background-color:#721825;
+  /*orden del elemento*/
+  z-index: 4;
+ /*Color de X*/
+  color: #fff;
+ /*Posicion de X*/   
+  line-height: 5rem;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+/*Foto_emergente*/
+.foto_emergente {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%;
+  margin-top: 0%;
+  overflow: hidden;
+}/**/
+.foto_emergente img {
+  width: 100%;
+  height: 100%;
+}
+.cuadro_emergente {
+  position: relative;
+/*cuandro tamaño  de texto e imagen*/
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  max-height: 900px;
+  /*tamaño del cuadro de la ventana emergente*/
+  width: 100%;
+  height: 50%;
+  margin-top: 20%;
+  background-color: #fff;
+  transform: rotate(270deg);
+  transition: .64s ease-in-out;
+}
+
+
+
+  
+}
