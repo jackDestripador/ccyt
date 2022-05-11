@@ -1,0 +1,36 @@
+Profesores - Investigadores
+>Avisos Profesores
+>Productos de Investigación
+>Año Sabático
+>Proyectos de Investigación
+>>Convocatoria
+>>Comisión de Investigación
+>Seguimiento a Requisiociones
+>Control de Incidencias
+>Revisión de planes de estudio
+
+Estudiantes
+>Avisos Estudiantes
+>Becas y Apoyos Externos
+>Oferta Académica y Titulación
+>Material Didáctico
+>Egresados
+
+Laboratorios
+>Laboratorios de Docencia
+>>Laboratorios de Física
+>>Laboratorios de Electrónica
+>>Laboratorios de Potencia
+>>Laboratorios de Informática
+>>Laboratorios de Investigación
+>>>Laboratorio de Genómicas
+>>>LACYTES
+>>>LACECI
+>>>LIDET
+
+Quiénes Somos
+>Marco Normativo
+>Misión y Visión
+>Directorio del Personal
+>Directorio Cuerpos Colegiados
+>Quejas y Sugerencias
