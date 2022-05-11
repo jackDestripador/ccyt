@@ -317,7 +317,7 @@ nav {
 #cssmenu ul li.active:hover,
 #cssmenu ul li.active,
 #cssmenu ul li.has-sub.active:hover {
-    background: #7a242f !important;
+    background:  !important;
      border-radius: 10px 10px 0 0;
     /*animacion al desplazar submenu*/
     -webkit-transition: background .3s ease;

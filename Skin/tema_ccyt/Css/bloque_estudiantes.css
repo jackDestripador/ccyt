@@ -1,0 +1,437 @@
+/***************************
+UACM | COLEGIO DE CIENCIA Y TECNOLOGÍA
+BLOQUE - ESTUDIANTES
+***************************/
+
+
+/***************************
+PÁGINA - AVISOS ESTUDIANTES
+***************************/
+
+/*********************************
+EVENTOS
+*********************************/
+
+/*separacion de cajon*/
+.event_item
+{
+	margin-bottom: 100px;
+}
+/*cuadro día y mes*/
+.event_date
+{
+	width: 131px;
+	height: 131px;
+	border: solid 4px #7E3838;
+	margin-bottom: 20px;
+    border-radius: 6px 6px 6px 6px ;
+    
+}
+/*texto dia*/
+.event_day
+{
+    text-align: center; 
+    font-size: 48px;
+    color:#7E3838;
+    margin-top: 13px;
+    text-align: center; 
+    font-weight: 800;
+}
+/*texto mes*/
+.event_month
+{
+	font-size: 16px;
+	font-weight: 700;
+	color: #7E3838;
+    text-align: center; 
+}/*texto Evento [Notificaciones,Concurso, Congreso]*/
+.event_name a
+{
+	font-size: 22px;
+	font-weight: 500;
+	color: #1a1a1a;
+}/*texto  sub encabezado [Notificaciones,Concurso, Congreso]*/
+.event_location
+{
+	font-size: 14px;
+	font-weight: 500;
+	color: #1a1a1a;
+	margin-top: 2px;
+}/*texto parrafo [Notificaciones,Concurso, Congreso]*/
+.event_content p
+{
+	font-weight: 500;
+	color: #1a1a1a;
+	margin-top: 21px;
+	margin-bottom: 13px;
+}
+.event_image
+{
+
+
+}
+.event_image img
+{
+	width: 100%;
+}
+
+/***************************
+PÁGINA - OFERTA ACADÉMICA Y TITULACIÓN
+***************************/
+
+@media (max-width: 1900px){
+
+section li:before {
+	  content: counters(elemento, '.') "";
+}
+.listado1 li a{
+		text-decoration: none;
+		  color: #1a1a1a;
+		font-size: 34px;		
+}
+.listado1 {
+		 margin: 0px 5% 0px 2%;		 
+}
+.listado1 ol{
+		margin: 2% 0px 0px -1%; 		 
+}
+.listado1 li{
+		position: relative;
+		display: block;
+		padding: 3% 1% 12px 2%;
+		margin: 15px 0px 1px 40px;
+		text-decoration: none;	
+}
+.listado1 li:hover{		
+}   	
+.listado1 li:before{
+		position: absolute; 
+		left: -1.8em;
+		margin-top: 1.4em;    
+		background: #721825;
+		height: 1em;
+		width: 1em;
+		line-height: 1em;
+		text-align: center;
+		color:#721825;
+		border-radius: 50px 50px 50px 50px;
+}	
+li	a.encabezado1{
+		font-size: 35px;
+    line-height: 50px;
+}
+
+}
+
+
+@media (max-width: 800px){
+
+section li:before {
+	  content: counters(elemento, '.') "";
+}
+.listado1 li a{
+		text-decoration: none;
+		  color: #1a1a1a;
+		font-size: 24px;		
+}
+.listado1 {
+		 margin: 0px 5% 0px 0%;		 
+}
+.listado1 ol{
+		margin: 2% 0px 0px 5%; 		 
+}
+.listado1 li{
+		position: relative;
+		display: block;
+		padding: 3% 5% 12px 2%;
+		margin: 15px 0px 1px 40px;
+		text-decoration: none;	
+		
+}
+.listado1 li:hover{		
+}   	
+.listado1 li:before{
+		position: absolute; 
+		left: -1.5em;
+		margin-top: 0.4em;    
+		background: #721825;
+		height: 1em;
+		width: 1em;
+		line-height: 1em;
+		text-align: center;
+		color:#721825;
+		border-radius: 50px 50px 50px 50px;
+}	
+li	a.encabezado1{
+		font-size: 35px;
+    line-height: 23px;
+}
+
+}
+@media (max-width: 680px){
+
+section li:before {
+	  content: counters(elemento, '.') "";
+}	
+.listado1 li a{
+		text-decoration: none;
+		  color: #1a1a1a;
+		font-size: 20px;			
+}
+.listado1 {
+		 margin: 0px 5% 0px 0%;		 
+}
+.listado1 ol{
+		margin: 2% 0px 0px 5%; 	 
+}
+.listado1 li{
+		position: relative;
+		display: block;
+		padding: 3% 2% 12px 2%;
+		margin: 15px 0px 1px 40px;
+		text-decoration: none;	
+}
+.listado1 li:hover{
+		
+	}   	
+.listado1 li:before{
+		position: absolute; 
+		left: -1.5em;
+		margin-top: 0.4em;    
+		background: #721825;
+		height: 1em;
+		width: 1em;
+		line-height: 1em;
+		text-align: center;
+		color:#721825;
+		border-radius: 50px 50px 50px 50px;
+}
+li	a.encabezado1{
+		font-size: 35px;
+    line-height: 23px;
+}
+}
+@media screen and (max-width: 420px) {
+
+section li:before {
+	  content: counters(elemento, '.') "";
+}	
+.listado1 li a{
+		text-decoration: none;
+		  color: #1a1a1a;
+		font-size: 20px;			
+}
+.listado1 {
+		 margin: 0px 5% 0px 0%;		 
+}
+.listado1 ol{
+		margin: 2% 0px 0px 5%; 	 
+}
+.listado1 li{
+		position: relative;
+		display: block;
+		padding: 3% 2% 12px 2%;
+		margin: 15px 0px 5px 40px;
+		text-decoration: none;	
+}
+.listado1 li:hover{
+		
+	}   	
+.listado1 li:before{
+		position: absolute; 
+		left: -1.5em;
+		margin-top: 0.4em;    
+		background: #721825;
+		height: 1em;
+		width: 1em;
+		line-height: 1em;
+		text-align: center;
+		color:#721825;
+		border-radius: 50px 50px 50px 50px;
+}
+li	a.encabezado1{
+		font-size: 35px;
+    line-height: 23px;
+}
+
+
+}
+	/***************************
+	PÁGINA: BECAS Y APOYOS EXTERNOS
+	***************************/
+	
+	.event_item_1
+	{
+		margin-bottom: 100px;
+		margin-right: 70px;
+		margin-left: -90px;
+	}
+	/***************************
+	PÁGINA: MATERIAL EDUCATIVO
+	***************************/
+
+.myButton {
+	-moz-box-shadow: -4px 5px 4px 2px #363636;
+	-webkit-box-shadow: -4px 5px 4px 2px #363636;
+	box-shadow: -4px 5px 4px 2px #363636;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #a35951), color-stop(1, #9c2426));
+	background:-moz-linear-gradient(top, #a35951 15%, #9c2426 100%);
+	background:-webkit-linear-gradient(top, #a35951 15%, #9c2426 100%);
+	background:-o-linear-gradient(top, #a35951 15%, #9c2426 100%);
+	background:-ms-linear-gradient(top, #a35951 15%, #9c2426 100%);
+	background:linear-gradient(to bottom, #a35951 15%, #9c2426 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a35951', endColorstr='#9c2426',GradientType=0);
+	background-color:#a35951;
+	-moz-border-radius:14px;
+	-webkit-border-radius:14px;
+	border-radius:14px;
+	border:2px solid #8b4b4b;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:25px;
+	font-weight:bold;
+	padding:25px 25px;
+	text-decoration:none;
+}
+
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #9c2426), color-stop(1, #a35951));
+	background:-moz-linear-gradient(top, #9c2426 5%, #a35951 100%);
+	background:-webkit-linear-gradient(top, #9c2426 5%, #a35951 100%);
+	background:-o-linear-gradient(top, #9c2426 5%, #a35951 100%);
+	background:-ms-linear-gradient(top, #9c2426 5%, #a35951 100%);
+	background:linear-gradient(to bottom, #9c2426 5%, #a35951 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#9c2426', endColorstr='#a35951',GradientType=0);
+	background-color:#9c2426;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.contenedorletra {
+                background-color: lightgreen;
+		text-align: left;
+                width: 300px;
+                height: 150px;
+        }
+.letras {
+    background-color: lightgreen;
+	text-align: rigth;
+    width: 300px;
+    height: 150px;
+	padding:32px 19px;
+	font-family:Arial;
+        }
+#panel1, #panel2, #panel3, #panel4, #panel5,#panel6{
+	
+	
+
+	
+
+	display: none;
+}
+/*************************
+CUERPOS COLEGIADOS
+*************************/
+
+ .link { color: #000000;
+
+		    font-weight:700;
+            
+            max-width: 800px;
+	        min-width: 300px;
+            margin-left: 60px;
+     
+           font-size: 20px;
+           letter-spacing: 4px;
+           text-transform: uppercase;
+           font-weight: bold;
+           margin-top: -190px;
+}
+
+/***************************
+FORMULARIO | QUEJAS Y SUGERENCIAS 
+***************************/
+/* Entradas de estilo con tipo = "texto", seleccione elementos y áreas de texto */
+input[type=text], select, textarea {
+  width: 100%; /* Ancho completo*/
+  padding: 12px; /* Algo de relleno */  
+  border: 1px solid #ccc; /* Borde gris */
+  border-radius: 4px; /* Bordes redondeados */
+  box-sizing: border-box; /* Asegúrese de que el relleno y el ancho permanezcan en su lugar*/
+  margin-top: 6px; /* Añadir un margen superior */
+  margin-bottom: 16px; /*Margen inferior*/
+  resize: vertical /* Permitir que el usuario redimensione verticalmente el área de texto (no horizontalmente) */
+}
+
+/* Diseñe el botón Enviar con un color de fondo específico, etc. */
+input[type=submit] {
+  background-color:#721825;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* 
+Cuando mueva el mouse sobre el botón Enviar, agregue un color verde más oscuro*/
+input[type=submit]:hover {
+  background-color: #721825;
+}
+
+/* Agrega un color de fondo y algunos rellenos alrededor del formulario.*/
+.containerform {
+  border-radius: 5px;
+  background-color: #ffffff ;
+  padding: 20px;
+    margin-top: -60px;
+}
+.nombre{
+    margin: 20px   30px   40px;
+    
+}
+.asunto{
+    margin: 20px   34px   40px;
+}
+.mensaje{
+     margin: 20px   30px   40px;
+}
+.box1{
+     width: 400px;
+    
+}
+.box2{
+     width: 400px;
+    
+}
+.box3{
+     width: 400px;
+    height: 150px;
+    margin-bottom: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
