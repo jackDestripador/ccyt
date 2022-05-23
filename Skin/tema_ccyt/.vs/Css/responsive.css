@@ -1,0 +1,43 @@
+/*************************************
+
+
+UACM | COLEGIO DE CIENCIA Y TECNOLOGÍA
+
+AVISOS PROFESORES | AVISOS ESTUDIANTES
+
+
+***************************/
+
+
+@charset "utf-8";
+
+@media only screen and (max-width: 991px)
+{
+	
+	
+	.event_date
+	{
+		margin-top: 30px;
+	}
+	.event_name
+	{
+		margin-top: 17px;
+	}
+	.event_content p
+	{
+		margin-bottom: 0px;
+	}
+	.newsletter_form_container
+	{
+		width: 85%;
+	}
+	.footer_col
+	{
+		margin-bottom: 30px;
+	}
+	.footer_col:last-child
+	{
+		margin-bottom: 0px;
+	}
+}
+

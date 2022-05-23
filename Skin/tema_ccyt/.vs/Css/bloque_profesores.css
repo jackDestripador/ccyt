@@ -1,0 +1,298 @@
+/***************************
+UACM | COLEGIO DE CIENCIA Y TECNOLOGÍA
+BLOQUE - PROFESORES
+***************************/
+
+/***************************
+UACM | COLEGIO DE CIENCIA Y TECNOLOGÍA
+BLOQUE - ESTUDIANTES
+***************************/
+
+
+/***************************
+AVISOS ESTUDIANTES
+***************************/
+
+/*********************************
+EVENTOS
+*********************************/
+
+/*separacion de cajon*/
+.event_item
+{
+	margin-bottom: 100px;
+}
+/*cuadro día y mes*/
+.event_date
+{
+	width: 131px;
+	height: 131px;
+	border: solid 4px #7E3838;
+	margin-bottom: 20px;
+    border-radius: 6px 6px 6px 6px ;
+    
+}
+/*texto dia*/
+.event_day
+{
+    text-align: center; 
+    font-size: 48px;
+    color:#7E3838;
+    margin-top: 13px;
+    text-align: center; 
+    font-weight: 800;
+}
+/*texto mes*/
+.event_month
+{
+	font-size: 16px;
+	font-weight: 700;
+	color: #7E3838;
+    text-align: center; 
+}/*texto Evento [Notificaciones,Concurso, Congreso]*/
+.event_name a
+{
+	font-size: 22px;
+	font-weight: 500;
+	color: #1a1a1a;
+}/*texto  sub encabezado [Notificaciones,Concurso, Congreso]*/
+.event_location
+{
+	font-size: 14px;
+	font-weight: 500;
+	color: #1a1a1a;
+	margin-top: 2px;
+}/*texto parrafo [Notificaciones,Concurso, Congreso]*/
+.event_content p
+{
+	font-weight: 500;
+	color: #1a1a1a;
+	margin-top: 21px;
+	margin-bottom: 13px;
+}
+.event_image
+{
+
+
+}
+.event_image img
+{
+	width: 100%;
+}
+/************
+PÁGINA : Control de incidencias
+****************/
+
+.nombre{
+	margin:  20px   30px   40px;
+	height: 20px;
+	width: 60px;
+}
+
+.correo{
+
+	margin: 20px   30px   40px;
+	height: 20px;
+	width: 60px;
+
+}
+.empleado{
+
+	margin:20px   30px   40px;
+	height: 20px;
+	width: 60px;
+}
+
+.tip{
+	margin: 60px   100px   20px;
+   height: 40px;
+   width: 630px;
+   
+   font-size: 10px;
+   background-color: #ffffff;
+
+   border-style: solid;
+
+  } 
+  
+  .fecha{
+
+
+	
+  }
+  
+/***************************
+PÁGINA: AÑO SABATICO
+***************************/
+
+.seguir_mas{
+    text-decoration: none;
+    color:  #721825;
+    font-weight: 500;
+    
+}
+
+.event_item_1
+{
+	margin-bottom: 100px;
+    margin-right: 60px;
+    margin-left: -90px;
+}
+
+
+
+
+
+
+
+
+/****************************************
+PÁGINA | Control de incidencia Formulario
+****************************************/
+/* Entradas de estilo con tipo = "texto", seleccione elementos y áreas de texto */
+input[type=text], select, textarea {
+  width: 100%; /* Ancho completo*/
+  padding: 12px; /* Algo de relleno */  
+  border: 1px solid #ccc; /* Borde gris */
+  border-radius: 4px; /* Bordes redondeados */
+  box-sizing: border-box; /* Asegúrese de que el relleno y el ancho permanezcan en su lugar*/
+  margin-top: 6px; /* Añadir un margen superior */
+  margin-bottom: 16px; /*Margen inferior*/
+  resize: vertical /* Permitir que el usuario redimensione verticalmente el área de texto (no horizontalmente) */
+
+}
+
+/* Diseñe el botón Enviar con un color de fondo específico, etc. */
+input[type=submit] {
+  background-color:#721825;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* 
+Cuando mueva el mouse sobre el botón Enviar, agregue un color verde más oscuro*/
+input[type=submit]:hover {
+  background-color: #721825;
+}
+
+/* Agrega un color de fondo y algunos rellenos alrededor del formulario.*/
+.containerform {
+  border-radius: 5px;
+  background-color: #ffffff ;
+  padding: 20px;
+    margin-top: -60px;
+}
+.nombre{
+    
+  margin: 0em   7em 	  0em;
+  margin-right: 6.3em;
+ 
+}
+.plantel{
+  margin: 0em   7em 	  0em;
+  margin-right: 6.3em;
+}
+.plantel_opcion{
+
+  width: 40em;
+  height: 3em;
+  padding: 0em;/*Esoacio del texto*/
+/* Fondo del colr
+  background: yellow;
+*/  
+  margin-left: 6.1em;
+  margin-bottom: 30px;
+  height: auto;
+}
+.academia{
+
+  margin: 0em   7em 	  -2em;
+  margin-right: 1em;
+}
+.academia2{
+
+  margin-left: 1em;
+  width: 40em;
+  padding: 8px;
+  height: 1em;
+}
+  
+
+
+.correo{
+
+  margin: 0em   7em 	  2em;
+  margin-right: 1.2em;
+  margin-top: 2em;
+}
+.fecha{
+
+  margin: 0em   7em 	  2em;
+ 
+  margin-right: 2em;
+}
+.fechai{
+
+  
+  margin-left: 5.5em;
+  margin-right: 2em;
+
+}
+.fechafin{
+
+  
+  margin-left: 2em;
+  margin-right: 2em;
+
+}
+.nota{
+
+  margin: 0em   7em 	  2em;
+}
+
+.tipo{
+
+  margin: 0em   7em 	  2em;
+  margin-right: 4em;
+}
+
+.box1{
+
+  width: 40em;
+  height: 1.2em;
+  padding: 0.5em;/*Esoacio del texto
+  /*color de la caja
+  background: yellow;
+  */
+  margin-left: 80px;
+  margin-bottom: 60px;
+}
+
+.box2{
+
+  width: 40em;
+  height: 1.2em;
+  padding: 0.5em;/*Esoacio del texto
+  /*color de la caja
+  background: yellow;
+  */
+  
+  margin-left: 6em;
+  margin-bottom: 60px;
+}
+.box3{
+
+width: 40.3em;
+  height: 3em;
+  padding: 0em;/*Esoacio del texto*/
+/* Fondo del colr
+  background: yellow;
+*/  
+  
+  margin-left: 4.5em;
+  margin-bottom: 60px;
+  height: auto;
+}
