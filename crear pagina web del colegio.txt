@@ -1,5 +1,6 @@
 Profesores - Investigadores
 >Avisos Profesores
+>Directorio de Profesores-Investigadores
 >Productos de Investigación
 >Año Sabático
 >Proyectos de Investigación
@@ -33,4 +34,4 @@ Quiénes Somos
 >Misión y Visión
 >Directorio del Personal
 >Directorio Cuerpos Colegiados
->Quejas y Sugerencias
+>Sugerencias
